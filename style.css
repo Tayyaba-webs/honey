@@ -1,0 +1,176 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.a {
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.625);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    -ms-flex-align: center;
+    border-bottom: 1px solid orangered;
+    box-shadow: 4px 4px 4px orangered;
+}
+nav > .b {
+    padding: 14px 0px;
+}
+nav > .b > a {
+    color: orangered;
+    text-decoration: none;
+    padding: 9px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+nav > .b > a:hover {
+    box-shadow: 0px 0px 20px orange;
+    border-radius: 5px;
+}
+nav > .c  {
+    padding: 14px 0px;
+}
+nav > .c > a {
+    color: white;
+    text-decoration: none;
+    padding: 9px 15px;
+    font-size: 1.5rem;
+}
+nav > .c > a > i {
+    background-color: orangered;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 2px;
+}
+nav > .c > a > i:hover {
+    background-color: black;
+    box-shadow: 0px 0px 20px orange;
+}
+.d {
+    display: flex;
+    width: 100%;
+}
+.d > .e {
+    width: 60%;
+    padding: 10% 10%;
+}
+.d > .e > h1 {
+    font-size: 50px;
+    color: rgb(174, 48, 2);
+}
+.d > .e > p {
+    font-size: 25px;
+    color: rgb(174, 48, 2);
+}
+.d > .e > button {
+    color: white;
+    background-color: orange;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 1.7rem;
+}
+.d > .e > button:hover {
+    cursor: pointer;
+    background-color: rgb(174, 48, 2);
+    color: white;
+    box-shadow: 0px 0px 10px orangered;
+}
+.d > .f {
+    width: 40%;
+    padding: 10% 10%;
+}
+.d > .f > img {
+    height: 60vh;
+    width: 20%;
+    float: right;
+    animation-name: jar;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    position: absolute;
+}
+@keyframes jar {
+    0% {
+        right: -60%;
+    }
+    100% {
+        right: 20%;
+    }
+}
+#a {
+    width: 7%;
+    height: 20vh;
+    position: absolute;
+    animation-name: bee1;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes bee1 {
+    0% {
+        top: -60%;
+    }
+    100% {
+        top: 20%;
+    }
+}
+#b {
+    width: 7%;
+    height: 20vh;
+    position: absolute;
+    animation-name: bee2;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes bee2 {
+    0% {
+        left: -60%;
+    }
+    100% {
+        left: 60%;
+    }
+}
+#c {
+    width: 7%;
+    height: 20vh;
+    position: absolute;
+    animation-name: bee3;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes bee3 {
+    0% {
+        right: -60%;
+    }
+    100% {
+        right: 15%;
+    }
+}
+#d {
+    width: 7%;
+    height: 20vh;
+    position: absolute;
+    animation-name: bee4;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes bee4 {
+    0% {
+        bottom: -60vh;
+    }
+    100% {
+        bottom: 10vh;
+    }
+}
